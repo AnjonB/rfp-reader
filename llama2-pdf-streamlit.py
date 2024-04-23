@@ -50,8 +50,8 @@ def main():
 ]
     
     index_placeholder = None
-    st.set_page_config(page_title = "Chat with your PDF using Llama2 & Llama Index", page_icon="🦙")
-    st.header('🦙 Chat with your PDF using Llama2 model & Llama Index')
+    st.set_page_config(page_title = "RFP Summariser", page_icon="🤖")
+    st.header('💬 With your RFP 📃')
     
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
